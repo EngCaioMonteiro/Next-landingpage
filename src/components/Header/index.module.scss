@@ -1,0 +1,32 @@
+@import "/src/styles/mixins/colors.sass";
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $purple-color;
+    border: 0.5px solid $gray-color;
+    padding: 34px 180px;
+    opacity: 1;
+}
+
+.menu {
+    color: #ffffff;
+    font-size: 22px;
+    a+a{
+        margin-left: 38.9px;
+    }
+}
+
+.button{
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: $green-color;
+}
+
+.button:hover{
+    background-color: #0d9fc7;
+}
