@@ -57,4 +57,6 @@ O projeto é sobre o front-end de uma landing page onde são aplicados conceitos
 npx create-next-app@latest landingpage
 ```
 
+### Layout trabalhado neste projeto
 
+https://xd.adobe.com/view/2378ec0e-7bad-4788-9b0b-f43507085560-762b/specs/

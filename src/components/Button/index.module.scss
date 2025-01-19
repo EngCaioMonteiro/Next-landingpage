@@ -1,0 +1,23 @@
+@import "/src/styles/mixins/colors.sass";
+
+.button{
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    
+    &.primary {
+        background-color: $green-color;
+        color: $white-color;
+    }
+    
+    &.secundary {
+        background-color: $white-color;
+        color: $purple-color;
+    }
+}
+
+.button:hover{
+    background-color: #0d9fc7;
+}
